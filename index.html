@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="mCheck.css">
+</head>
+<body>
+	<form>
+		<input type="checkbox" name="demo-checkbox" id="demo-checkbox" />
+		<label for="demo-checkbox">Demo Checkbox</label>
+		<br />
+		<input type="checkbox" name="demo-checkbox2" id="demo-checkbox2" checked="checked" />
+		<label for="demo-checkbox2">Demo Checkbox 2</label>
+		<br /><br />
+		<input type="submit" />
+	</form>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="mCheck.js"></script>
+	
+	<script type="text/javascript">
+		$(function() {
+			$('#demo-checkbox').mCheck();
+			$('#demo-checkbox2').mCheck();
+		});
+	</script>
+</body>
+</html>

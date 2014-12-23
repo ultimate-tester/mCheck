@@ -1,0 +1,22 @@
+.mCheck {
+	display: inline-block;
+	border: 1px solid #2c3e50;
+	padding: 1px;
+}
+
+.mCheck > .mCheckState {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.mCheck > .mCheckState.mCheckOn {
+	width: 9px;
+	height: 10px;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAd0lEQVR4nJXQsQnCYBCG4cfw7xBHCJLGBQQHUCyyjxknUziDNiLaWVjZaifY3C9BgpIPrvju3uLlJvVi41+KH7ctjpimWJS44xW9DeiJskCFEzqkL2CFQ4ryQINZTAZ22emKJW5DQF/8EuAe6z4gHHLOmI99wSdvfDgX1RZGX4AAAAAASUVORK5CYII=');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mCheck > .mCheckState.mCheckOff {
+}
