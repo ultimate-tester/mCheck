@@ -1,4 +1,4 @@
 mCheck
 ======
 
-The official mCheck respository
+The official mCheck repository
